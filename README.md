@@ -79,7 +79,7 @@ There's a few key problems we need to solve for in order to make models like thi
 
 1. **Responding with a stream or chunk of data.**
 
-    This can depend on the HTTP version your client is using. Most clients / browsers today will be using HTTP2, but we need to be certain that we can pass data bank in chunks or some form of stream to the client. See the screenshot about that tells WGET it's NOT getting a length specified and it should expect an octet stream!
+    This can depend on the HTTP version your client is using. Most clients / browsers today will be using HTTP2, but we need to be certain that we can pass data bank in chunks or some form of stream to the client. See the screenshot about that tells wget it's NOT getting a length specified and it should expect an octet stream!
 
 ### Parallelism
 

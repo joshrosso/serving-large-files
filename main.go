@@ -27,7 +27,7 @@ func main() {
 	go func() {
 		for {
 			printMemoryUsage()
-			time.Sleep(10 * time.Millisecond)
+			time.Sleep(1 * time.Second)
 		}
 	}()
 
